@@ -1,1 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
 
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.skill {
+    margin: 10px 0;
+}
+
+.skill-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.skill-name i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.skill-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-percentage {
+    background-color: #4caf50;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
